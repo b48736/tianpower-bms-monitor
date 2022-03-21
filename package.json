@@ -1,0 +1,38 @@
+{
+  "name": "tianpower-bms-monitor",
+  "version": "0.0.1",
+  "description": "Monitor Tian Power Battery Management System",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc --reporter=lcov --reporter=text mocha",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b48736/tianpower-bms-monitor.git"
+  },
+  "keywords": [
+    "BMS",
+    "tianpower",
+    "revov"
+  ],
+  "author": "b48736",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b48736/tianpower-bms-monitor/issues"
+  },
+  "homepage": "https://github.com/b48736/tianpower-bms-monitor#readme",
+  "devDependencies": {
+    "@serialport/binding-mock": "^10.2.2",
+    "chai": "^4.3.6",
+    "eslint": "^8.9.0",
+    "mocha": "^9.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@serialport/bindings-cpp": "^10.7.0",
+    "@serialport/stream": "^10.3.0",
+    "lodash": "^4.17.21"
+  }
+}
